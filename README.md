@@ -5,10 +5,10 @@ provided by the city of Seattle.
 The most recent data can be accessed [here](https://data.seattle.gov/Public-Safety/Call-Data/33kz-ixgy):
 
 ## Table of Contents
-- [Libraries Used](#libraries)
-- [Project Motivation](#motivation)
-- [File Descriptions](#files)
-- [Summary of the Analysis](#summary)
+- [Libraries Used](#libraries-used)
+- [Project Motivation](#project-motivation)
+- [File Descriptions](#file-descriptions)
+- [Summary of the Analysis](#summary-of-the-analysis)
 
 
 ## Libaries Used
@@ -28,7 +28,7 @@ Specific to Jupyter Notebooks:
 With such a massive amount of well-maintained information available, this provided an opportunity
 to dive into what goes on when a police assistance call is placed. Specifically, we looked at:
 
-1. Was times were the majority of the calls placed? Are there any surges by
+1. What times were the majority of the calls placed? Are there any surges by
 day of the month, or month of the year?
 2. Do the amount of calls change by Precinct, Sector or Beat?
 3. Does the Priority of calls change by Precinct, Sector or Beat?
