@@ -2,8 +2,7 @@
 This project analyzes call data to the Seattle Police Department call center, and was
 provided by the city of Seattle.
 
-The most recent data can be accessed here:
-https://data.seattle.gov/Public-Safety/Call-Data/33kz-ixgy
+The most recent data can be accessed [here](https://data.seattle.gov/Public-Safety/Call-Data/33kz-ixgy):
 
 ## Table of Contents
 - [Libraries Used](#libraries)
@@ -59,5 +58,6 @@ due to GitHub restrictions, the smaller file was used.
 
 
 ## Summary of the Analysis
-
+The main Jupyter notebook has much insight to offer, however a summary of the main
+findings can be found [here].
 [Table of Contents](#table-of-contents)
