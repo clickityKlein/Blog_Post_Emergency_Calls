@@ -70,4 +70,5 @@ due to GitHub restrictions, the smaller file was used.
 ## Summary of the Analysis
 The main Jupyter notebook has much insight to offer, however a summary of the main
 findings can be found [here.](https://medium.com/@carlj.klein/emergency-call-placed-priority-pending-3c59e3c7ba42)
+
 [Table of Contents](#table-of-contents)
