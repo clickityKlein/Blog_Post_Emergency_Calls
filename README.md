@@ -2,12 +2,13 @@
 This project analyzes call data to the Seattle Police Department call center, and was
 provided by the city of Seattle.
 
-The most recent data can be accessed [here](https://data.seattle.gov/Public-Safety/Call-Data/33kz-ixgy):
+The most recent data can be accessed [here.](https://data.seattle.gov/Public-Safety/Call-Data/33kz-ixgy)
 
 ## Table of Contents
 - [Libraries Used](#libraries-used)
 - [Project Motivation](#project-motivation)
 - [File Descriptions](#file-descriptions)
+- [Blog Post Functions](#blog-post-functions)
 - [Summary of the Analysis](#summary-of-the-analysis)
 
 
@@ -56,8 +57,17 @@ due to GitHub restrictions, the smaller file was used.
 
 [Table of Contents](#table-of-contents)
 
+## Blog Post Functions
+- vals_by_col: This function returns all unique values for specified columns in a DataFrame.
+- date_to_col: This function splits a single entry containing information about date and time, returning a DataFrame with the information split into individual columns.
+- secondary_unique: This function returns either a list of dictionaries or a DataFrame which contains the number of times each unique in a certain column intersects with values from a secondary column (associated appearances).
+- counts_to_portions: Given a DataFrame with counts as the datapoints, this function will return a DataFrame with the datapoints turned into a proportion, calculated by total of rows and columns, or by column or row total.
+- expand_categories: Given a single datapoint to plug into a model which has been encoded (i.e. each categorical value has been encoded by the binary method), this function will expand the categorical data from the input to match the input required for the model.
+
+[Table of Contents](#table-of-contents)
+
 
 ## Summary of the Analysis
 The main Jupyter notebook has much insight to offer, however a summary of the main
-findings can be found [here].
+findings can be found [here.](https://medium.com/@carlj.klein/emergency-call-placed-priority-pending-3c59e3c7ba42)
 [Table of Contents](#table-of-contents)
